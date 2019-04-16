@@ -1,12 +1,25 @@
  
-h1 {
+h2 {
+  text-indent: 330px;
   font-family: 'fantasy';
   color: lavenderblush;
 }
 
-p {
-  font-family: fantasy;
+h1 {
+  text-indent: 50px;
+  font-family: 'fantasy';
   color: snow;
+  margin-bottom: 300px;
+}
+
+p {
+ text-indent: 350px;
+ margin-bottom: 50px;
+}
+
+form {
+ margin-left: 400px;
+ margin-bottom: 50px;
 }
 
 html, body {
