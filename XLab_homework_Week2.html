@@ -18,18 +18,28 @@
 	
 	<h1><b> This is our first website! </b></h1>
 	<h2><i><small> created by Cora and Mirijam <small></i></h2>
-	<p><big> This box is created for you to greet the ones you love. <big></p>
+	<p><big> This box has been created for you to greet the ones you love. <big></p>
 	
 	
-	<form action="/action_page.php">
-	
+	<form>
 		<label for="nachricht"> "Hello, <label>
-		<input type="text" name="fname" placeholder="your loved one">
+		<input type="text" id="fname" name="fname" value=">
 		<label for="nachricht"> !" <label><br>
-		<input type="submit" value="Greetings" />
 	</div>
 	</form>
 	
+	<script language="JavaScript">
+		function popup() {
+			var Yourlovedone = document.getElementById('fname').value;
+			pop1=window.open("", "Textausgabe", "width = 300, height = 300");
+			pop1.document.write("<b> Hello " + Yourlovedone + "<\/b>");
+		}
+		</script>
+	
+	<form>
+		<input type=button value="Greetings" onClick="popup()">
+	</form>
+		
 	</div>
 	</div>
 	
