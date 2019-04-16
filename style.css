@@ -5,6 +5,11 @@ h2 {
   color: lavenderblush;
 }
 
+p {
+ text-indent: 370px;
+ margin-bottom: 50px;
+}
+
 h1 {
   text-indent: 50px;
   font-family: 'fantasy';
@@ -12,13 +17,8 @@ h1 {
   margin-bottom: 300px;
 }
 
-p {
- text-indent: 370px;
- margin-bottom: 50px;
-}
-
 form {
- margin-left: 400px;
+ margin-left: 350px;
  margin-bottom: 10px;
 }
 
