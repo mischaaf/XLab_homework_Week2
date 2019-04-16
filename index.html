@@ -6,43 +6,45 @@
 	<title> Our first website! </title>
 	<link rel="stylesheet" href="style.css">
 	</head>
-	
+
 	<body>
-	
+
 	<div>
 	<img id="hintergrund" src= "http://eskipaper.com/images/simple-heart-background-1.jpg" alt="" title="" />
 	</div>
-	
+
 	<div id="scrollbereich">
 	<div id="inhalt">
-	
+
 	<h2><b> This is our first website! </b></h2>
-	<p><i>created by Cora and Mirijam </i></p>
-	<h1> This box has been created for you to greet the ones you love. </h1>
-	
-	
-	<form>
-		<label for="nachricht"> "Hello, <label>
-		<input type="text" id="fname" name="fname" value="">
-		<label for="nachricht"> !" <label><br>
-	</div>
-	</form>
-	
-	<script language="JavaScript">
-		function popup() {
-			var Yourlovedone = document.getElementById('fname').value;
-			pop1=window.open("", "Textausgabe", "width = 300, height = 300");
-			pop1.document.write("<b> Hello " + Yourlovedone + "<\/b>");
-		}
-		</script>
-	
+	<p><i> created by Cora and Mirijam </i></p>
+	<h1>This box has been created for you to greet the ones you love. </h1>
+
+<form>
+	<label for="nachricht"> "Hello, <label>
+	<!--input type="text" name="fname" placeholder="your loved one"-->
+	<input type="text" id="fname" name="fname" value="">
+	<label for="nachricht"> !" <label><br>
+</div>
+</form>
+
+<script language="JavaScript">
+
+	function popup() {
+		var Yourlovedone = document.getElementById('fname').value;
+		pop1=window.open("", "Textausgabe", "width = 300, height =300");
+		pop1.document.write("<b> Hello " + Yourlovedone + "<\/b>");
+	}
+
+	</script>
+
 	<form>
 		<input type=button id="Greetings" value="Greetings" onClick="popup()">
 	</form>
-		
+
 	</div>
 	</div>
-	
+
 	</body>
-	
+
 </html>
