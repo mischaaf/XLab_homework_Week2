@@ -19,7 +19,11 @@ p {
 
 form {
  margin-left: 400px;
- margin-bottom: 50px;
+ margin-bottom: 10px;
+}
+
+#Greetings {
+ margin-left: 280px;
 }
 
 html, body {
